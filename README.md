@@ -5,11 +5,14 @@ Full featured PHP / MySQL Trading Website, with Social Logins (Facebook, Google 
 
 _______________<br>
 <br>
-Features:<br>
+<b>Features:</b><br>
 -Register using Facebook, Twitter, Google and Form Filling<br>
 -Messages between users.<br>
 -Ability to post services and/or products with pictures.<br>
 -And more!<br>
+<br>
+<b>License: </b> <h3>APACHE V2</h3>
+Basically for those who don't know APACHE V2, you can use it as you wish, edit, publish as your own, but you have to post the LICENSE, the copyright and that's it :)
 <br>
 <b>Notes</b><br>
 Ok you need to change a few things, first your DB Settings and other settings can be found under config/config.php.<br>
@@ -19,7 +22,7 @@ I think that's all you need to change. Of course you can give it another name by
 <br>
 All I ask if you use this is a little credit for me and the people that helped make this real, if you don't mind.<br>
 <br>
-Languages uses:<br>
+<b>Languages used:</b><br>
 PHP - Backend Server Logic<br>
 MySQL - SQL Database Driver<br>
 jQuery/Javascript - Frontend Scripting<br>
