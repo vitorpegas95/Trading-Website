@@ -4,7 +4,7 @@ class TwitterAuth
 	protected $db;
 	protected $client;
 	
-	protected $clientCallback = "http://www.oryzhon.com/marketplace/callback.php";
+	protected $clientCallback = "http://localhost/marketplace/callback.php";
 	
 	public function __construct(Database $db, \Codebird\Codebird $client)
 	{
