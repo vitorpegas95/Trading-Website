@@ -1,0 +1,26 @@
+{
+    "name": "google/api-client",
+    "type": "library",
+    "description": "PHP Client for Google APIs",
+    "keywords": ["php", "google", "api", "client", "analytics", "plus", "adwords", "adsense", "compute", "chrome", "youtube", "drive", "search"],
+    "homepage": "https://github.com/block8/google-api",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "Dan Cryer",
+            "email": "dan@block8.co.uk",
+            "homepage": "http://www.block8.co.uk/"
+        },
+        {
+            "name": "Google",
+            "email": "noreply@google.com",
+            "homepage": "http://www.google.com/"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "autoload": {
+        "classmap": ["src/"]
+    }
+}

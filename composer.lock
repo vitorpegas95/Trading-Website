@@ -1,0 +1,165 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "9777c2aabaa2753feea369b445114c02",
+    "packages": [
+        {
+            "name": "facebook/php-sdk-v4",
+            "version": "4.0.8",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/facebook/facebook-php-sdk-v4.git",
+                "reference": "4d77aa2fe57a3777040d6a60aa31fbe7465cb4ca"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/facebook/facebook-php-sdk-v4/zipball/4d77aa2fe57a3777040d6a60aa31fbe7465cb4ca",
+                "reference": "4d77aa2fe57a3777040d6a60aa31fbe7465cb4ca",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "guzzlehttp/guzzle": "~4.0",
+                "mockery/mockery": "dev-master",
+                "phpunit/phpunit": "3.7.*"
+            },
+            "suggest": {
+                "guzzlehttp/guzzle": "Allows for implementation of the Guzzle HTTP client"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Facebook\\": "src/Facebook/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Facebook Platform"
+            ],
+            "authors": [
+                {
+                    "name": "Facebook",
+                    "homepage": "https://github.com/facebook/facebook-php-sdk-v4/contributors"
+                }
+            ],
+            "description": "Facebook SDK for PHP",
+            "homepage": "https://github.com/facebook/facebook-php-sdk-v4",
+            "keywords": [
+                "facebook",
+                "sdk"
+            ],
+            "time": "2014-06-10 20:42:16"
+        },
+        {
+            "name": "google/api-client",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Block8/Google-API.git",
+                "reference": "27b0dd6c10e00bbb66f1e57101cc185d3b2bef73"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Block8/Google-API/zipball/27b0dd6c10e00bbb66f1e57101cc185d3b2bef73",
+                "reference": "27b0dd6c10e00bbb66f1e57101cc185d3b2bef73",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "src/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Dan Cryer",
+                    "email": "dan@block8.co.uk",
+                    "homepage": "http://www.block8.co.uk/"
+                },
+                {
+                    "name": "Google",
+                    "email": "noreply@google.com",
+                    "homepage": "http://www.google.com/"
+                }
+            ],
+            "description": "PHP Client for Google APIs",
+            "homepage": "https://github.com/block8/google-api",
+            "keywords": [
+                "adsense",
+                "adwords",
+                "analytics",
+                "api",
+                "chrome",
+                "client",
+                "compute",
+                "drive",
+                "google",
+                "php",
+                "plus",
+                "search",
+                "youtube"
+            ],
+            "time": "2013-06-08 08:53:50"
+        },
+        {
+            "name": "jublonet/codebird-php",
+            "version": "dev-develop",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/jublonet/codebird-php.git",
+                "reference": "20335f967973080f1ab4050cc51bfeac70821c50"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/jublonet/codebird-php/zipball/20335f967973080f1ab4050cc51bfeac70821c50",
+                "reference": "20335f967973080f1ab4050cc51bfeac70821c50",
+                "shasum": ""
+            },
+            "require": {
+                "lib-curl": "*",
+                "lib-openssl": "*"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "src/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0"
+            ],
+            "description": "A Twitter library in PHP.",
+            "time": "2014-05-27 23:47:02"
+        }
+    ],
+    "packages-dev": [
+
+    ],
+    "aliases": [
+
+    ],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "jublonet/codebird-php": 20,
+        "google/api-client": 20
+    },
+    "platform": [
+
+    ],
+    "platform-dev": [
+
+    ]
+}

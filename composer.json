@@ -1,0 +1,7 @@
+{
+	"require":{
+		"jublonet/codebird-php": "dev-develop",
+		"google/api-client": "dev-master",
+		"facebook/php-sdk-v4": "4.0.x"
+	}
+}

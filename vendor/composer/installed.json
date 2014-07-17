@@ -1,0 +1,146 @@
+[
+    {
+        "name": "jublonet/codebird-php",
+        "version": "dev-develop",
+        "version_normalized": "dev-develop",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/jublonet/codebird-php.git",
+            "reference": "20335f967973080f1ab4050cc51bfeac70821c50"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/jublonet/codebird-php/zipball/20335f967973080f1ab4050cc51bfeac70821c50",
+            "reference": "20335f967973080f1ab4050cc51bfeac70821c50",
+            "shasum": ""
+        },
+        "require": {
+            "lib-curl": "*",
+            "lib-openssl": "*"
+        },
+        "time": "2014-05-27 23:47:02",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "classmap": [
+                "src/"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "GPL-3.0"
+        ],
+        "description": "A Twitter library in PHP."
+    },
+    {
+        "name": "facebook/php-sdk-v4",
+        "version": "4.0.8",
+        "version_normalized": "4.0.8.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/facebook/facebook-php-sdk-v4.git",
+            "reference": "4d77aa2fe57a3777040d6a60aa31fbe7465cb4ca"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/facebook/facebook-php-sdk-v4/zipball/4d77aa2fe57a3777040d6a60aa31fbe7465cb4ca",
+            "reference": "4d77aa2fe57a3777040d6a60aa31fbe7465cb4ca",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.4.0"
+        },
+        "require-dev": {
+            "guzzlehttp/guzzle": "~4.0",
+            "mockery/mockery": "dev-master",
+            "phpunit/phpunit": "3.7.*"
+        },
+        "suggest": {
+            "guzzlehttp/guzzle": "Allows for implementation of the Guzzle HTTP client"
+        },
+        "time": "2014-06-10 20:42:16",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Facebook\\": "src/Facebook/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "Facebook Platform"
+        ],
+        "authors": [
+            {
+                "name": "Facebook",
+                "homepage": "https://github.com/facebook/facebook-php-sdk-v4/contributors"
+            }
+        ],
+        "description": "Facebook SDK for PHP",
+        "homepage": "https://github.com/facebook/facebook-php-sdk-v4",
+        "keywords": [
+            "facebook",
+            "sdk"
+        ]
+    },
+    {
+        "name": "google/api-client",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/Block8/Google-API.git",
+            "reference": "27b0dd6c10e00bbb66f1e57101cc185d3b2bef73"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/Block8/Google-API/zipball/27b0dd6c10e00bbb66f1e57101cc185d3b2bef73",
+            "reference": "27b0dd6c10e00bbb66f1e57101cc185d3b2bef73",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.0"
+        },
+        "time": "2013-06-08 08:53:50",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "classmap": [
+                "src/"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "Apache-2.0"
+        ],
+        "authors": [
+            {
+                "name": "Dan Cryer",
+                "email": "dan@block8.co.uk",
+                "homepage": "http://www.block8.co.uk/"
+            },
+            {
+                "name": "Google",
+                "email": "noreply@google.com",
+                "homepage": "http://www.google.com/"
+            }
+        ],
+        "description": "PHP Client for Google APIs",
+        "homepage": "https://github.com/block8/google-api",
+        "keywords": [
+            "adsense",
+            "adwords",
+            "analytics",
+            "api",
+            "chrome",
+            "client",
+            "compute",
+            "drive",
+            "google",
+            "php",
+            "plus",
+            "search",
+            "youtube"
+        ]
+    }
+]
