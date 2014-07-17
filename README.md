@@ -11,7 +11,7 @@ Features:<br>
 -Ability to post services and/or products with pictures.<br>
 -And more!<br>
 <br>
-[b]Notes[/b]<br>
+<b>Notes</b><br>
 Ok you need to change a few things, first your DB Settings and other settings can be found under config/config.php.<br>
 If you are gonna use Facebook, twiiter and/or Google login, you need to setup your keys (public and secret API keys) in the file app/init.php<br>
 You have to change all the URL's with localhost to your actual website.<br>
