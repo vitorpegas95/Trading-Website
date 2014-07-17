@@ -10,10 +10,10 @@
 			$this->db = $db;
 			if($this->client)
 			{
-				$this->client->setClientId('267794586944.apps.googleusercontent.com');
-				$this->client->setClientSecret('arm38GwA0qqmCX20C1aTcefF');
-				$this->client->setRedirectUri('http://www.oryzhon.com/marketplace/register.php');
-				$this->client->setScopes('email');
+				$this->client->setClientId('CLIENT ID');
+				$this->client->setClientSecret('CLIENT SECRET');
+				$this->client->setRedirectUri('http://localhost/marketplace/register.php');
+				$this->client->setScopes('email'); //this will get the email of the user only.
 			}
 		}
 		
