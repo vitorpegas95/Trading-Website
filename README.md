@@ -3,13 +3,7 @@ Trading-Website
 
 Full featured PHP / MySQL Trading Website, with Social Logins (Facebook, Google and Twitter).
 
-_______________<br>
-<br>
-<h3>Demo</h3>
-<a href="http://oryzhon.com/marketplace/" target="_blank">Live Demo</a>
-<br>
-<br>
-
+_______________<br><br>
 <h3>Features:</h3><br>
 -Register using Facebook, Twitter, Google and Form Filling<br>
 -Messages between users.<br>
